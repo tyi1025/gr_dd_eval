@@ -12,11 +12,13 @@ if(NOT TARGET ${PROJECT_NAME})
     ${PROJECT_SOURCE_DIR}/include/Executor.hpp
     ${PROJECT_SOURCE_DIR}/include/executors/CircuitSimulatorExecutor.hpp
     ${PROJECT_SOURCE_DIR}/include/executors/AlternatingVerificationExecutor.hpp
+    ${PROJECT_SOURCE_DIR}/include/executors/EquivalenceCheckerExecutor.hpp
     ${PROJECT_SOURCE_DIR}/include/Task.hpp
     ${PROJECT_SOURCE_DIR}/include/tasks/SimulationTask.hpp
     ${PROJECT_SOURCE_DIR}/include/tasks/VerificationTask.hpp
     executors/CircuitSimulatorExecutor.cpp
     executors/AlternatingVerificationExecutor.cpp
+    executors/EquivalenceCheckerExecutor.cpp
     tasks/SimulationTask.cpp
     tasks/VerificationTask.cpp)
 
